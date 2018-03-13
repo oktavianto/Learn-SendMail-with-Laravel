@@ -6,8 +6,8 @@ return [
     'host' => 'smtp.sendgrid.net',
     'port' => 587,
     'encryption' => 'tls',
-    'username' => 'raqaelf',
-    'password' => 'aminajah',
+    'username' => 'sendgrid_username',
+    'password' => 'sendgrid_password',
     'sendmail' => '/usr/sbin/sendmail -bs',
     'markdown' => [
         'theme' => 'default',
